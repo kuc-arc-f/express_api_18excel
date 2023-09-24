@@ -3,6 +3,12 @@ require('dotenv').config();
 import LibPg from './LibPg';
 
 const  LibTodo = {
+  /**
+  *
+  * @param
+  *
+  * @return
+  */  
   getItems :async function(req: any){
     try {
       const body = req.body;      
